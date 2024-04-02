@@ -1,4 +1,4 @@
-import UpdateTaskService from "./Services/UpdateTaskService.js";
+import UpdateTaskService from "../Services/UpdateTaskService.js";
 
 class UpdateTaskController {
 	async execute(req, res) {

@@ -1,4 +1,4 @@
-import ListAllTasksService from "./Services/ListAllTasksService.js";
+import ListAllTasksService from "../Services/ListAllTasksService.js";
 
 class ListAllTasksController {
 	async execute(req, res) {

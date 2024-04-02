@@ -1,4 +1,4 @@
-import CreateTaskService from "./Services/CreateTaskService.js";
+import CreateTaskService from "../Services/CreateTaskService.js"
 
 class CreateTaskController {
 	async execute(req, res) {

@@ -1,4 +1,4 @@
-import { getActualDate } from '../../utils/getDate.js';
+import { getActualDate } from '../utils/getDate.js';
 import fs from 'node:fs/promises'
 
 class UpdateTaskService {
@@ -18,6 +18,7 @@ class UpdateTaskService {
 		dataBaseData.map((task) => {
 			if (task.id === valueUrlParam) {
 				task = taskFoundById
+				return
 			}
 		})
 

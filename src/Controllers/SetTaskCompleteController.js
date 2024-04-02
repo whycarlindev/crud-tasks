@@ -1,4 +1,4 @@
-import SetTaskCompleteService from "./Services/SetTaskCompleteService.js";
+import SetTaskCompleteService from "../Services/SetTaskCompleteService.js";
 
 class SetTaskCompleteController {
 	async execute(req, res) {

@@ -1,4 +1,4 @@
-import DeleteTaskService from "./Services/DeleteTaskService.js"
+import DeleteTaskService from "../Services/DeleteTaskService.js"
 
 class DeleteTaskController {
 	async execute(req, res) {

@@ -1,4 +1,4 @@
-import ListTaskByParamsService from "./Services/ListTaskByParamsService.js"
+import ListTaskByParamsService from "../Services/ListTaskByParamsService.js"
 
 class ListTaskByParamsController {
 	async execute(req, res) {

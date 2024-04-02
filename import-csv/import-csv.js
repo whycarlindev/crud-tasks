@@ -34,7 +34,7 @@ async function makeRequest(bodyRequest) {
       body: JSON.stringify(body)
     })
     .then((response) => {
-      if (response.status !== 200) {
+      if (response.status !== 200 && response.status !== 201) {
         console.log('Failed to create Task: ' + response.status + ' ' + response.statusText)
       } else {
         console.log('Task ' + body.title + ' created')

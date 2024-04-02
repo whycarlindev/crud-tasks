@@ -31,7 +31,6 @@ export async function handleRequest(req, res) {
 			}
 
 			req.valueUrlParam = endPointSplited[2]
-
 			return route
 		}
 
